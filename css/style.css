@@ -1,0 +1,104 @@
+.cls {
+    clear: both;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Roboto', sans-serif;
+}
+
+body#inner_item_body {
+    margin-top: 50px;
+}
+
+#search {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#searchBar {
+    width: 80%;
+    float: left;
+}
+
+#searchBtn {
+    width: 20%;
+    float: left;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item_in {
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.14);
+    border:1px dashed transparent;
+    border-radius: 15px;
+    background: #e8e8e8;
+}
+
+
+.item_image img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+.item_title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.item_title a {
+    color: #000;
+    font-size: 25px;
+}
+
+.item_title a:hover,
+.item_title a:focus {
+    text-decoration: none;
+}
+
+.item_year {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+#inner_item {
+    border-radius: 15px;
+    background: #fff;
+    padding: 25px;
+}
+
+.inner_item_image {
+    margin-bottom: 20px;
+}
+
+.movie_title {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movie_date {
+    color: #8c8c8c;
+    font-size: 12px;
+}
+
+.movie_director {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movie_plot {
+    color: #000;
+    font-size: 14px;
+}
